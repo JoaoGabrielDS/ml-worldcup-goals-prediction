@@ -1,0 +1,25 @@
+# Dados brutos (baixar manualmente via Kaggle)
+data/raw/*.csv
+data/raw/*.zip
+
+# Dados processados gerados automaticamente
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Ambiente virtual
+venv/
+.env
+*.egg-info/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Modelos salvos (grandes)
+*.pkl
+*.joblib
+*.model
