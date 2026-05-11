@@ -1,0 +1,10 @@
+Versão,Modelo,MAE Teste,RMSE Teste,MAE CV
+v1,Reg. Linear,0.48,0.5651,0.4295
+v1,Random Forest,0.4512,0.5789,0.445
+v1,XGBoost,0.5603,0.6874,0.5275
+v2,Reg. Linear,0.5471,0.6582,0.4295
+v2,Random Forest,0.5819,0.6688,0.445
+v2,XGBoost,0.5789,0.7065,0.5275
+v3,Reg. Linear,0.5295,0.6463,0.4256
+v3,Random Forest,0.5657,0.6759,0.4479
+v3,XGBoost,0.5501,0.6836,0.5139
