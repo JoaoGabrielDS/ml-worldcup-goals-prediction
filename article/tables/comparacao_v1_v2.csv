@@ -1,0 +1,7 @@
+Modelo,Versão,MAE Teste,RMSE Teste,MAE CV (média)
+Regressão Linear,v1,0.48,0.5651,0.445
+Random Forest,v1,0.4512,0.5789,0.445
+XGBoost,v1,0.5603,0.6874,0.445
+Regressão Linear,v2,0.5471,0.6582,0.4368
+Random Forest,v2,0.5819,0.6688,0.4435
+XGBoost,v2,0.5789,0.7065,0.4772
