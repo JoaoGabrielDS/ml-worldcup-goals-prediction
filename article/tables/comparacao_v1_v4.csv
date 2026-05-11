@@ -1,0 +1,7 @@
+Versão,Modelo,MAE Teste,RMSE Teste,MAE CV,Std CV
+v1 (filtrado),Reg. Linear,0.48,0.5651,0.4295,0.0395
+v1 (filtrado),Random Forest,0.4512,0.5789,0.445,0.0504
+v1 (filtrado),XGBoost,0.5603,0.6874,0.5275,0.0692
+v4,Reg. Linear,0.4565,0.551,0.4374,0.0464
+v4,Random Forest,0.461,0.5683,0.4515,0.0523
+v4,XGBoost,0.5185,0.6214,0.4923,0.0326
