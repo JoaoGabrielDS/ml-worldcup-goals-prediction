@@ -66,6 +66,34 @@ Os notebooks experimentais (versões v1 a v5) estão em `notebooks/experimentos/
 
 ---
 
+## Docker (Execução em Qualquer Dispositivo)
+
+### Pré-requisitos
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado
+
+### Executar
+
+```bash
+# Clone o repositório
+git clone https://github.com/JoaoGabrielDS/ml-worldcup-goals-prediction
+cd ml-worldcup-goals-prediction
+
+# Coloque os datasets em data/raw/ (results.csv, shootouts.csv, football_team_values_2010_2026.xlsx)
+
+# Subir o container
+docker-compose up --build
+
+# Acesse no navegador:
+# http://localhost:8888
+```
+
+### Parar
+```bash
+docker-compose down
+```
+
+---
+
 ## Estrutura do Repositório
 
 ```
@@ -167,4 +195,6 @@ Com 216 amostras de treino, modelos complexos (Random Forest, XGBoost) sofreram 
 
 ## Autores
 
-> Preencha com seu nome e matrícula.
+Ítalo Gabriel Marques de Sá Ferreira 
+João Gabriel de Souza Costa
+Pedro Felipe Gomes de Souza
